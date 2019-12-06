@@ -1,0 +1,15 @@
+feign:
+  extend:
+    route-map:
+      salmonDevice: 172.16.6.10:55001
+      localTest: 127.0.0.1:8080
+      multipart-support-service: 127.0.0.1:8081
+      multipart-download-support-service: 127.0.0.1:8080
+    client-type: apache_http
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+eureka:
+  client:
+    service-url:
+      defaultZone: http://10.30.20.34:1111/eureka/

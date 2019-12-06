@@ -1,0 +1,24 @@
+[CustomClient#uploadByteArray] ---> POST http://localhost:8080/upload/byte_array_parameter HTTP/1.1
+[CustomClient#uploadByteArray] Content-Type: multipart/form-data; charset=UTF-8; boundary=16ed5546852
+[CustomClient#uploadByteArray] Content-Length: 167
+[CustomClient#uploadByteArray] 
+[CustomClient#uploadByteArray] Binary data
+[CustomClient#uploadByteArray] ---> END HTTP (167-byte body)
+[CustomClient#uploadByteArray] <--- HTTP/1.1 200 (4ms)
+[CustomClient#uploadByteArray] content-length: 0
+[CustomClient#uploadByteArray] date: Thu, 05 Dec 2019 09:11:48 GMT
+[CustomClient#uploadByteArray] x-application-context: application
+[CustomClient#uploadByteArray] 
+[CustomClient#uploadByteArray] <--- END HTTP (0-byte body)
+[CustomClient#uploadByteArray] ---> POST http://localhost:8080/upload/byte_array_parameter HTTP/1.1
+[CustomClient#uploadByteArray] Content-Type: multipart/form-data; charset=UTF-8; boundary=16ed5568661
+[CustomClient#uploadByteArray] Content-Length: 167
+[CustomClient#uploadByteArray] 
+[CustomClient#uploadByteArray] Binary data
+[CustomClient#uploadByteArray] ---> END HTTP (167-byte body)
+[CustomClient#uploadByteArray] <--- HTTP/1.1 200 (4ms)
+[CustomClient#uploadByteArray] content-length: 0
+[CustomClient#uploadByteArray] date: Thu, 05 Dec 2019 09:14:07 GMT
+[CustomClient#uploadByteArray] x-application-context: application
+[CustomClient#uploadByteArray] 
+[CustomClient#uploadByteArray] <--- END HTTP (0-byte body)
