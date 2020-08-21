@@ -69,7 +69,7 @@ feign.extend.client-type=jdk_connect
 
 ### 3.form请求支持
 
-该部分的实现参考了https://github.com/OpenFeign/feign-form项目
+该部分的实现参考了https://github.com/OpenFeign/feign-form 项目
 
 支持以下形态的form请求
 
